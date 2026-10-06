@@ -39,3 +39,24 @@ if x== 200:
 
 else:
     print ("Il numero e 0")    
+
+
+
+
+    #match
+
+comando= input ("inserisci un comando:  ")
+
+match comando:       #valuta e controlla ai case 
+
+    case "start":    
+        print ("avvio del programma.")
+
+    case "stop":
+        print ("chiusura del programma.")
+
+    case "pausa":
+        print ("programma in pausa.")
+
+    case _:          #default
+       print ("comando non riconosciuto")

@@ -11,6 +11,8 @@ numeri= [3,1,4,2,5]
 #conta la lunghezza della lista
 print (len(numeri))
 
+
+#riporta in fondo la variabile
 numeri.append (4)
 print (numeri)
 
