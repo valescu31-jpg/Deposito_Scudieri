@@ -1,0 +1,54 @@
+# esercizio 1
+
+
+numero= int(input("inserisci un numero"))
+print(numero)
+
+if numero==10:
+    print ("ottimo")
+if numero<5:
+    print ("medio")
+if numero != 15:
+     print("bene")
+else:
+     print ("il numero e sbagliato")
+
+
+
+#esercizio 2
+
+#dati
+lista = [1,2,3]
+
+#richiesta all'utente
+scelta = input("cosa vuoi fare?")
+
+#condizione di aggiungi
+if scelta == "aggiungi" :
+    scelta2 = input("scegli una parola")
+    lista.append(scelta2)
+    print(lista)
+
+#condizione rimuovi
+elif scelta == "rimuovi":
+    print("scegli cosa rimuovere fra: ", lista)
+    scelta2 = input("scegli una parola")
+    lista.remove(scelta2)
+    print(lista)
+
+ #condizione modifica     
+elif scelta == "modifica":
+    print("scegli quale posizione modificare da 0 con limite a", len(lista)-1 ) #calcolo della lista
+   
+    scelta2 = int(input("scegli una posizione"))
+   
+    scelta3 = input("scegli una parola da aggiungere")
+   
+    lista[scelta2] = scelta3
+    
+    print(lista)   
+
+else: 
+    print("Scelta sbagliata")
+
+     
