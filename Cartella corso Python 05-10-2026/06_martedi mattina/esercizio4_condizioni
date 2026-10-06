@@ -1,0 +1,63 @@
+#nome
+
+nome= input("inserisci nome")
+
+if nome== " ":
+    print ("errore.")
+
+#eta
+eta= int(input("inserisci eta"))
+
+#sesso
+
+sesso= input("inserisci il tuo sesso M/F")
+if len(sesso) !=1 :
+     input("errore, serve un solo carattere." ) 
+
+
+#premium
+
+premium_input= input ("sei un utente premium?"(True/False))
+premium = (premium_input == "True")
+
+#creazione lista
+
+utente = [nome, eta, sesso, premium]
+print ("\nlista creata con successo")
+print(utente)
+
+#modifica tramite match
+
+scelta= input("\nQuale campo vuoi modificare?" (nome, eta, sesso, premium))
+
+#scelta match:
+
+    case "nome":
+        nuovo_nome=("inserisci nuovo nome")
+            utente [0]= nuovo_nome
+
+
+    
+    case "eta"
+        nuova_eta= ("inserisci nuova eta")
+            utente [1]= nuova_eta
+            
+
+
+    case "sesso"
+        nuovo_sesso= ("inserisci nuova sesso")
+            utente [2]= nuovo_sesso
+            
+
+    
+    
+    case "premium"
+        nuovo_premium= ("inserisci nuovo premium?  (true/false):")
+            utente [3]= (nuovo_premium == "true")
+
+    case _:
+    print("Opzione non valida!")
+            
+
+
+

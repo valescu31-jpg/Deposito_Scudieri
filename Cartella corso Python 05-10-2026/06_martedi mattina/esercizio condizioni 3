@@ -2,14 +2,38 @@
 eta= int(input())
 maggiorenne= eta >= 18
 
+#condizione seguita da valore booelano scritto sempre con la lettera maiuscola
 if maggiorenne == True:
     eta= "maggiorenne"
 
 else:
         eta = "minorenne"
-
+# match utilizzato per aggiungere delle condizioni come risposta dell'if
 match eta:
       case "maggiorenne":
             print ("puoi vedere il film")
       case "minorenne":
             print ("non puoi vedere il film")  
+
+
+
+
+#moltiplicazioni,divisioni ecc..
+
+num1= int(input())
+num2= int(input())
+
+opeazione = input ("inserisci operazioni + , - , * e /":)
+
+
+
+case "+":
+      print ("puoi vedere il film")
+case "-":
+      print ("non puoi vedere il film")  
+case "*":
+      print ("puoi vedere il film")
+case "/":
+      if
+
+      
