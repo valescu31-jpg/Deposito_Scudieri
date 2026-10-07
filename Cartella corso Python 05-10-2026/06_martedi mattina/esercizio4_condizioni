@@ -20,7 +20,7 @@ if len(sesso) !=1 :
 premium_input= input ("sei un utente premium?"(True/False))
 premium = (premium_input == "True")
 
-#creazione lista
+#creazione lista sfruttando \n per raggruppare i valori
 
 utente = [nome, eta, sesso, premium]
 print ("\nlista creata con successo")
