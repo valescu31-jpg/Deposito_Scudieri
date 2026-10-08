@@ -5,7 +5,7 @@ while True:
     if num_positivo<=0:
         break
     else:
-        print(pippo)
+        print("pippo")
         
 
 #Generazione lista sequenziale
@@ -22,7 +22,18 @@ for i in range (0, lista[i]):
     if i % 2==0:
         print(lista[i])
         somma_pari= somma_pari+ lista[i]
-        print(somma_pari) 
+        print(somma_pari)
+
+
+# stampa numeri dispari
+
+for i in range (0, lista[i]):
+    if i % 2==1:
+         print("numeri dispari:", lista[i])
+
+#ciclo restitutivo dei numeri primi
+
+
 
 
 
