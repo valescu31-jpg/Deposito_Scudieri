@@ -1,8 +1,0 @@
-continuare=True
-while:
-    numero= int(input("inserisci num"))
-    if
-    numero<=0
-    continuare=False
-
-
