@@ -11,7 +11,7 @@ while True:
 #Generazione lista sequenziale
 
     i=0
-    lista=[i] 
+    lista=[i] #dividere per la generazione la lista e il range
     range(len(lista)-1)
 
 
