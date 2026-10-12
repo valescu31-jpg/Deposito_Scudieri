@@ -28,10 +28,14 @@ class Garage:
 
     #def formato_targa_valida(self):
 
-    targa=input("inserisci targa")
+    
 
 
     def rimuovi(self, auto_presenti, capienza, targa):
+
+        targa=input("inserisci targa")
+
+        
         self.auto_presenti-=1
         self.capienza+=1
 
@@ -47,9 +51,9 @@ class Garage:
     def posti_liberi(self,capienza, autopresenti):
         return self.capienza- len(self.auto_presenti)
 
-    
 
-        print (len(auto_presenti))
+
+
 
 
         
