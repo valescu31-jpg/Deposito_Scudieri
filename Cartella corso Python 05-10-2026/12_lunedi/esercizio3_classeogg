@@ -1,0 +1,47 @@
+class ContoCorrente:
+
+    def __init__(self,intestatario, saldo):
+
+        self.intestatario= intestatario
+        self.saldo= saldo
+
+    def deposita(self,importo):
+        if importo<0:
+            print("ERRORE, saldo non modificato")
+        
+        else:
+            self.saldo+=importo
+
+
+    def preleva(self,importo):
+        
+
+        if importo<0 or importo>self.saldo:
+            print("ERRORE, saldo non modificato")
+
+        else:
+            self.saldo-=importo
+
+            print ("IL tuo saldo  e' stsato aggiornato")
+
+
+
+    
+    def stampa_saldo(self):
+        return self.saldo, self.intestatario
+
+
+
+scelta menu = " "
+while scelta_menu != end 
+pass
+
+
+
+
+    
+
+
+    
+        
+
