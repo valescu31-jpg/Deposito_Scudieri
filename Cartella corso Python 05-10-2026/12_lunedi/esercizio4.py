@@ -1,12 +1,18 @@
 class Garage:
 
 
+# Metodo costruttore: viene eseguito quando crei un oggetto Garage.
+    # Prende in input la capienza massima e le auto già presenti.
 
-    def __init__(self, capienza, auto_presenti):
 
-        self.auto_presenti= auto_presenti
+    def __init__(self, capienza):
+
+        self.auto_presenti= []
         self.capienza=capienza
 
+
+# Metodo speciale __len__: permette di usare la funzione len() 
+    # direttamente sull'oggetto Garage per sapere quanti elementi ci sono.
 
 
     def __len__(self):
@@ -29,7 +35,7 @@ class Garage:
     #def formato_targa_valida(self):
 
     
-
+# Metodo per rimuovere un'auto dal garage
 
     def rimuovi(self, auto_presenti, capienza, targa):
 
