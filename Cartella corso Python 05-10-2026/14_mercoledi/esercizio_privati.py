@@ -1,6 +1,6 @@
 class Persona:
 
-
+#costruttore che dichiara parametri
     def __init__(self, nome, eta: int):
         self.nome=nome
         self.eta=eta
@@ -10,55 +10,57 @@ class Persona:
         print("Si chiama:",self.nome, "con eta'=:", self.eta)
 
 
-class Studente:
+class Studente(Persona):
 
-    voti=[10,8,4,5,2,7,9]
+
+#inizializzo la lista voti
+
+    __voti=[10,8,4,5,2,7,9]
     
 
     
-    
+# costruttore e non dichiara voti, poiche voti e' stato inizializzato primo
 
-    def __init__(self,nome,eta, voti: int):
+    def __init__(self,nome,eta:int):
         self.__nome=nome
         self.__eta=eta
-        self.__voti=voti
+        
 
 
     
 
-    media_voti= sum(voti)/ len(voti)
+    
 
     def calcolo_media(self):
 
-        self.calcolo_media.voti=self.media_voti
-        print (self.media_voti)
+        #media voti che riprende la variabile __voti(privato), sfruttando la somma diviso la lunghezza della lista
+
+        media_voti= sum(self.__voti)/ len(self.__voti)
+
+        
+        print (media_voti)
         
 
 
-    class Studente(Persona):
     
-            def presentazione(self):
-                print("Si chiama:",self.nome, "con eta'=:", self.eta, "possiede media voti:", voti)
+    
+    
         
 
 
 
 
 
-class Professore:
+class Professore(Persona):
 
-    pass
+    
 
     def __init__(self,nome,eta, materia):
-        self.nome=nome
-        self.eta=eta
-        self.materia=materia
+        self.__nome=nome
+        self.__eta=eta
+        self.__materia=materia
 
-
-    class Professore(Persona):
-
-        def presentazione(self):
-            print("Si chiama:",self.nome, "con eta'=:", self.eta, "Insegna:", self.materia)
+    
 
 
         

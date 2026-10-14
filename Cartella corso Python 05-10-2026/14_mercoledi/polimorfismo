@@ -1,2 +1,58 @@
 
+#duck-typing 
+
+
+class Cerchio:
+
+    def disegna(self):
+
+        print("Disegno un cerchio")
+
+
+class Rettangolo:
+
+    def disegna(self):
+
+        print("Disegno un rettangolo")
+
+                                            #entrambe le classi hanno in comune il metodo disegna
+def disegna_figura(figura):
+
+    # Anche qui, basta che 'figura' abbia il metodo 'disegna'
+
+    figura.disegna()
+
+
+figure = [Cerchio(), Rettangolo()]     # figure[0]=Cerchio() / figure[1]=Rettagolo()
+
+
+# Iteriamo e disegniamo ogni figura
+
+for figura in figure:
+
+    disegna_figura(figura)
+
+
+     #len
+
+# Lista
+
+print(len([1, 2, 3]))  # Output: 3
+
+
+# Stringa
+
+print(len("Ciao"))     # Output: 4
+
+
+# Dizionario
+
+print(len({"a": 1, "b": 2}))  # Output: 2
+
+
+
+
+
+
+
 
