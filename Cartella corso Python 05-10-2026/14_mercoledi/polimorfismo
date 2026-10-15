@@ -56,3 +56,9 @@ print(len({"a": 1, "b": 2}))  # Output: 2
 
 
 
+self.importo=importo
+    if importo<=0:
+                     print("transazione errata, saldo Paypal insufficente")
+     
+                 elif importo>0:
+                     print("transazione avvenuta con successo")

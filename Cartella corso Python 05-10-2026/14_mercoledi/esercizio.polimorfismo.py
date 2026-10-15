@@ -2,16 +2,8 @@ class MeteodoPagamento:
 
 
     def effettua_pagamento(self,importo):
-        self.importo=importo
-        print("Stai effetuando un pagamento.")
-
+        pass
         
-
-
-
-
-
-
 
 
 class CartadiCredito(MeteodoPagamento):
@@ -27,14 +19,27 @@ class CartadiCredito(MeteodoPagamento):
 
 class Paypal(MeteodoPagamento):
      def effettua_pagamento(self,importo=500):
-                 self.importo=importo
-                 if importo<=0:
-                     print("transazione errata, saldo Paypal insufficente")
+        self.importo=importo
+        if importo<=0:
+            print("transazione errata, saldo Paypal insufficente")
      
-                 elif importo>0:
-                     print("transazione avvenuta con successo")
+        elif importo>0:
+            print("transazione avvenuta con successo")
+        
+                 
 
-importo=int (input("Inserisci saldo"))
+
+class GestorePagamenti(MeteodoPagamento):
+
+    def __init__(self,metodo):
+          self.metodo= metodo
+
+
+
+    def processa(self,importo):
+            self.metodo= effettua_pagamento(importo)
+    
+     
 
      
                 
