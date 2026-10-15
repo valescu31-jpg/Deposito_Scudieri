@@ -173,8 +173,8 @@ def main(): #Punto di partenza del programma per leggere
             else:
                 print("Scelta non valida, riprova.")
     
-    if __name__ == "__main__":
-        main()
+if __name__ == "__main__":
+    main()
     
 
 
