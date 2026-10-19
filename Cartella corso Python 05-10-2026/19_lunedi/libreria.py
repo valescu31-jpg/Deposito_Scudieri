@@ -24,3 +24,19 @@ print("Media degli elementi:", arr.mean())  # Output: 3.0
 print("Valore massimo:", arr.max())  # Output: 5
 
 print("Indice del valore massimo:", arr.argmax())  # Output: 4
+
+
+
+print("==============================================================")
+
+#dtype
+arr = np.array([1, 2, 3], dtype='int32')
+
+print(arr.dtype)  # Output: int32
+
+print("==============================================================")
+
+#shape
+arr = np.array([[1, 2, 3], [4, 5, 6]])
+
+print(arr.shape)  # Output: (2, 3)
