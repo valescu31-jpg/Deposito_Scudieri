@@ -30,7 +30,9 @@ print(diagonale_principale)
 
 #Sostituzione dei multipli di 3 con -1
 matrice_modificata= matrice_invertita.copy # Creiamo una copia per preservare la matrice invertita originale intatta
-matrice_modificata[matrice_modificata%3==0]= -1
+
+if matrice_modificata %3== 0:
+    elif[matrice_modificata]= -1
 
 
 #STAMPA DI TUTTI GLI ELEMENTI

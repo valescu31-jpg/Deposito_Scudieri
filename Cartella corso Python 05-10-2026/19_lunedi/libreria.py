@@ -169,3 +169,41 @@ indices = [0, 2, 4]
 print(arr[indices])  # Output: [10 30 50]
 
 
+
+#linspace
+arr = np.linspace(0, 1, 5)  #creera' valori equidistanti tra loro permeteendo la creazione di dati artificiali
+
+print(arr)  # Output: [0.   0.25 0.5  0.75 1.  ]
+
+print("================================================================")
+
+#random 
+random_arr = np.random.rand(3, 3)  
+
+# crea Matrice 3x3 con valori casuali uniformi tra 0 e 1
+
+print(random_arr)
+
+
+print("============OPERAZIONI VETTORIALI=============")
+
+arr = np.array([7, 2, 4, 6, 5])
+
+
+sum_value = np.sum(arr)
+
+mean_value = np.mean(arr)
+
+std_value = np.std(arr)
+print("Sum:", sum_value)    # Output: Sum: 24 (somma di cio che c'e tra parentesi)
+
+print("Mean:", mean_value)  # Output: Mean: 4.8 (media)
+
+print("Standard Deviation:", std_value) #quanta distanza c'e' tra i valori
+
+
+
+
+
+
+
