@@ -36,10 +36,10 @@ print(df.info()) #visualizazzione dei Tipi di dati
 
 
 print("calcolo statistiche descrittive : media, mediana e deviazione")
-# Calcoliamo la media della colonna 'Età' (Pandas ignora automaticamente i valori NaN nel calcolo)
+# Calcoliamo la media e la deviazionr della colonna 'Età' (Pandas ignora automaticamente i valori NaN nel calcolo)
 print("MEDIA, DEVIAZIONE DI ETA")
-media_eta = df['Età'].mean()
-print(f"-> Info: La media calcolata dell'Età è {media_eta:.2f}\n")
+media_eta = df['Età'].mean() #modo similare all'sql per la media al livello strutturale, richiamando il nome della tabella con metodo
+print(f"-> Info: La media calcolata dell'Età è {media_eta:.2f}\n") #modo per stampare 
 deviazione_eta = df['Età'].std()
 print(f"-> Info: La deviazione calcolata dell'Età è {deviazione_eta:.2f}\n")
 
@@ -57,3 +57,9 @@ print(f"-> Info: Il valore mediano calcolata dell'Età è {mediana_eta:.2f}\n")
 
 mediana_salario= df['Salario (€)'].median()
 print(f"-> Info: Il valore mediano  dell'Salario è {mediana_salario:.2f}\n")
+
+
+print("MEDIA TOTALE") #La mediana, guardando solo la posizione centrale, non si fa influenzare dai valori estremi o sproporzionati, risultando spesso un indicatore molto più affidabile per descrivere la "realtà tipica" di un gruppo (come nel caso dei salari o dei prezzi delle case).
+
+media_totale= df.mean(numeric_only= True) #struttura preimpostata di python per poter far la media totale delle informazioni (escludendo Citta e Nome)
+print(media_totale)
