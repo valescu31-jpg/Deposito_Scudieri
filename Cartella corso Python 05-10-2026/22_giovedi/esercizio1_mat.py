@@ -1,5 +1,4 @@
 import matplotlib.pyplot as plt
-import numpy as np
 import pandas as pd
 
 f_scv_temperatura= pd.read_csv("Cartella corso Python 05-10-2026/22_giovedi/dataset_temperatura.csv")
@@ -22,7 +21,7 @@ print(temperatura_media)
 
 print("Temperatura mediana:")
 temperatura_mediana= f_scv_temperatura['Temperatura_C'].median()
-
+print(temperatura_mediana)
 
 print("===================RAPPRESENTAZIONE GRAFICA=======================")
 
