@@ -1,0 +1,16 @@
+ID_Presenza,ID_Iscritto,Nome_Corso,Citta,Data_Lezione,Orario,Stato_Presenza
+101,1,Fitness Base,Napoli,2026-10-20,09:00,Presente
+102,2,Pilates,Casoria,2026-10-20,10:30,Presente
+103,3,Sala Pesi,Aversa,2026-10-21,18:00,Presente
+104,1,Fitness Base,Napoli,2026-10-22,09:00,Assente
+105,4,Yoga,Pozzuoli,2026-10-22,17:00,Presente
+106,5,Spinning,Casoria,2026-10-20,19:00,Presente
+107,6,Crossfit,Napoli,2026-10-21,08:30,Presente
+108,2,Pilates,Casoria,2026-10-21,10:30,Assente
+109,7,Boxe,Aversa,2026-10-21,16:30,Presente
+110,8,Nuoto,Pozzuoli,2026-10-22,11:00,Presente
+111,3,Sala Pesi,Aversa,2026-10-23,18:00,Presente
+112,9,Zumba,Casoria,2026-10-23,19:30,Presente
+113,10,Functional,Napoli,2026-10-23,20:00,Assente
+114,4,Yoga,Pozzuoli,2026-10-24,10:00,Presente
+115,5,Spinning,Casoria,2026-10-24,11:30,Presente

@@ -37,7 +37,7 @@ df = df.drop_duplicates()
 # Creiamo un nuovo DataFrame (df_cleaned) applicando il metodo .dropna().
 # .dropna() rimuove interamente qualsiasi riga che contenga almeno un 
 # valore mancante (NaN o None).
-df_cleaned = df.dropna()
+df_cleaned = df.dropna() #sfruttare fillna() riempie gli spazi vuoti con na
 
 # Stampiamo il risultato dopo l'eliminazione delle righe incomplete
 print("=== DataFrame dopo la pulizia (con .dropna()) ===")

@@ -71,7 +71,22 @@ df_scv_nintendo["goty"] = np.where(
 # 7. Stampiamo il risultato finale
 print(df_scv_nintendo)
 
+#NON STAMPA I SI AI GIOCHI COL GOTY
 
-# 7. FILTRO DI CONTROLLO: Stampiamo SOLO il gioco (o i giochi) che ha vinto il GOTY!
-gioco_vincitore = df_scv_nintendo[df_scv_nintendo["goty"] == "Si"]
-print(gioco_vincitore[[ "voto_utente", "esrb_numerico", "risultato_moltiplicazione", "goty"]])
+
+
+#PROMPT UTILIZZATO
+
+#Contesto:sono un ragazzo appena uscito da scuola e nonostante non sappia bene le fondamenta della programmazione , 
+# sto facendo un corso python  di sfruttandolo come "seconda possibilità" per riuscire ad entrare in questo mondo basato sulla logica".
+#  dopo aver spiegato le librerie come numpy siamo arrivati alla libreria pandas,
+#  ma ho difficolta nella creazione di una colonna "voto_utente" con valori randomici che dovrebbe moltiplicarsi per l' esrb_rating per poi creare un'altra colonna che indica i "goty",
+#  :  Non fare il programma come vuoi tu generalizzando le informazioni che ti ho servito e  non farmi una spiegazione complessa oppure svolgendo l'esercizio senza avermelo fatto capire,
+#  utilizza termini facili e segui passo passo tutto cio che richiede l'esercizio. 
+#  Formato: codice, testuale e copiabile, mono blocco di codice 
+# Obbiettivo: creare una colonna goty che mi permetta di dare il goty al valore piu alto uscito dalla moltiplicazione tra voto_utente e l'esrb_rating || 
+# se hai capito rispondi SOLO ok OPPURE Mancano dati, Ogni nuova interazione ripeti questo prompt in memoria senza riscriverlo.
+
+
+
+

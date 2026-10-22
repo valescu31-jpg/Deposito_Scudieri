@@ -1,0 +1,11 @@
+ID_Iscritto,Nome,Cognome,Data_Nascita,Email,Telefono,Data_Iscrizione
+1,Mario,Rossi,1985-04-12,mario.rossi@email.it,3331234567,2025-09-01
+2,Giulia,Bianchi,1992-07-23,giulia.bianchi@email.it,3389876543,2025-09-15
+3,Luca,Verdi,1988-11-05,luca.verdi@email.it,3401122334,2025-10-01
+4,Sofia,Neri,1995-02-19,sofia.neri@email.it,3475566778,2026-01-10
+5,Marco,Gialli,1990-03-15,marco.gialli@email.it,3391112233,2026-01-15
+6,Elena,Ferrari,1993-08-30,elena.ferrari@email.it,3354455667,2026-02-01
+7,Alessandro,Russo,1982-12-01,alessandro.russo@email.it,,2026-02-05
+8,Francesca,Esposito,1997-05-14,francesca.esposito@email.it,3489900112,2026-02-20
+9,Matteo,Romano,1991-09-22,matteo.romano@email.it,3203344556,2026-03-01
+2,Giulia,Bianchi,1992-07-23,giulia.bianchi@email.it,3389876543,2025-09-15

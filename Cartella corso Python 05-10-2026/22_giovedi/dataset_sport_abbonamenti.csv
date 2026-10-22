@@ -1,0 +1,5 @@
+ID_Abbonamento,Tipologia,Durata_Mesi,Costo_Euros,Note
+A01,Mensile Sala Pesi,1,45.00,Accesso libero sala pesi e cardio
+A02,Trimestrale Corsi,3,120.00,Accesso a un corso a scelta (es. Pilates o Yoga)
+A03,Annuale Open,12,450.00,Accesso illimitato a tutti i corsi e sala pesi
+A04,Ingresso Singolo,0,10.00,Accesso giornaliero sala pesi
