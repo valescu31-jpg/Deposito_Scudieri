@@ -99,3 +99,6 @@ media_valutazioni = df_cleaned_CandyVendite.groupby('area_vendita')['valutazione
 
 
 print(media_valutazioni)# stampa risultato
+
+
+
