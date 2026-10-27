@@ -38,13 +38,13 @@ digits = load_digits() #caricamento dataset
 
 #Stampiamo la forma (shape) di X
 # La X maiuscola rappresenta la matrice dei dati (le righe sono le immagini, le colonne sono i pixel)
-print("La forma (shape) di X e':", digits.data.shape)
+print("La forma (shape) di X e':", digits.data.shape) #riprendiamo digits essenndo il dataset e data per rifornirci delle informazioni da dare a X
 
 
 #Visualizziamo le prime 10 immagini
-plt.figure(figsize= (12,3)) # Creiamo una finestra orizzontale per metterle tutte di fila
+plt.figure(figsize= (12,3)) # Creiamo una finestra orizzontale per metterle tutte di fila con 12= larghezza e 3= altezza  
 
-for i in range(10):
+for i in range(10): #10 sta per il numero di immagini, i che sarebbe il contatore ogni volte che cicla crea l'immagine
 # Prepariamo lo spazio per mettere le immagini una di fianco all'altra
 
     plt.subplot(1, 10, i+1)  #plt.subplot serve a dividere la finestra del grafico in una griglia,
@@ -63,11 +63,31 @@ plt.show()
 
 #Creiamo un grafico a barre semplice per contare i numeri
 # Contiamo quanti campioni ci sono per ogni cifra da 0 a 9
-conteggi = np.bincount(digits.target)
+
+#il cartellino con la risposta esatta per ogni singolo disegno.
+#                            |
+conteggi = np.bincount(digits.target) #np.bincount(digits.target), digits.target è l'elenco completo di tutte le risposte corrette di tutte le immagini del dataset.
+                                      #Passando questo elenco a np.bincount, 
+                                      # il programma conta in automatico quanti zeri ci sono, quanti uno, quanti due e così via, per poter disegnare le colonne del grafico finale.
 
 
 
 # Disegniamo il grafico a barre
-plt.bar(range(10), conteggi)
+plt.bar(range(10), conteggi) #Questa riga prende i numeri da 0 a 9 e li mette in basso sull'asse orizzontale,
+                             #poi guarda l'elenco dei conteggi e alza ogni singola barra all'altezza giusta in base a quanti campioni di quel numero sono presenti nel dataset!
+
+
 plt.title("Quanti campioni per ogni cifra")
 plt.show()
+
+
+
+
+
+
+
+
+
+print("COMPLESSO:")
+
+
