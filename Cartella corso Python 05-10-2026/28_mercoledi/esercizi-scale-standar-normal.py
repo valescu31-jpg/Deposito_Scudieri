@@ -1,0 +1,1 @@
+#Obiettivo: trova e correggi l'errore in questo codice: X = MinMaxScaler().fit_transform(X) seguito da X_train, X_test, y_train, y_test = train_test_split(X, y). Riscrivilo nella versione corretta su load_digits().
